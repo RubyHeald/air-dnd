@@ -1,0 +1,21 @@
+footer {
+  height: 30px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 1rem;
+}
+
+footer > *:nth-last-child(1) {
+  margin-left: auto;
+}
+
+.show-chat {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  padding: 7px;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}

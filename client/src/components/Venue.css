@@ -1,0 +1,59 @@
+article {
+  width: 240px;
+}
+
+article img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+}
+
+.venue-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.venue-title > *:nth-last-child(2) {
+  margin-left: auto;
+}
+.venue-title h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.venue-details {
+  font-size: 1rem;
+  color: hsl(0, 0%, 30%);
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.venue-details button {
+  margin-left: auto;
+  border: none;
+  border-radius: 15px;
+  padding-inline: 10px;
+  padding-block: 2px;
+  font-size: inherit;
+  font-family: inherit;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
+.venue-details button:hover {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.likes {
+  font-size: 0.9rem;
+}
+
+.like-btn {
+  color: black;
+  background-color: transparent;
+  padding: 0;
+}
+
+.like-icon {
+  font-size: 16px !important;
+}

@@ -1,0 +1,23 @@
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 1rem;
+  border-bottom: 0.5px solid hsl(0, 0%, 90%);
+}
+
+header h1 {
+  font-size: 1rem;
+  color: hsl(0, 100%, 40%);
+}
+
+header > *:nth-last-child(2) {
+  margin-left: auto;
+}
+
+header .icon-btn {
+  color: black;
+  background-color: transparent;
+  padding: 0;
+}

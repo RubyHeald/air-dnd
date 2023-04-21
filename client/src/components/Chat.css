@@ -1,0 +1,87 @@
+.scrim {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}
+
+.chat {
+  width: 300px;
+  height: 500px;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 1rem;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
+}
+
+.chat form {
+  display: flex;
+  width: 100%;
+  border-top: 0.5px solid hsl(0, 0%, 90%);
+  height: 40px;
+}
+.chat form button {
+  margin: 0;
+  display: block;
+  font-family: inherit;
+  border: none;
+  background-color: hsl(0, 0%, 90%);
+  cursor: pointer;
+}
+.chat form button:hover {
+  background-color: hsl(0, 0%, 80%);
+}
+.chat form input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-family: inherit;
+  border: none;
+}
+.chat form input:focus {
+  outline: 1px solid hsl(0, 0%, 80%);
+}
+
+.chat form .send {
+  font-size: 18px !important;
+  padding-inline: 0.5rem;
+}
+
+.chat h2 {
+  font-size: 1rem !important;
+  margin: 0.5rem;
+}
+
+.messages {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  overflow-y: auto;
+}
+
+.message-pre {
+  font-weight: bold;
+}
+
+.chat ol {
+  margin: 0;
+  padding: 0;
+}
+
+.chat ol li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+.chat form button {
+  color: black;
+  padding-inline: 0.5rem;
+}
