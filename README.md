@@ -1,6 +1,6 @@
 # Airdnd
 
-An app to find and book epic venues for your RGP parties.
+An app to find and book epic venues for your RPG parties.
 
 ## Getting started
 
