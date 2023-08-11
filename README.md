@@ -2,8 +2,6 @@
 
 An app to find and book epic venues for your RPG parties.
 
-Stackblitz test.
-
 ## Getting started
 
 To run the server,
